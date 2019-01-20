@@ -1,0 +1,47 @@
+﻿
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="../../Scripts/JavaScripts/jquery.min.js"></script>
+    
+      
+    </head>
+    <body>
+
+        <form action="index.html" method="post">
+
+
+            <h1>Sign Up</h1>
+
+            <fieldset>
+
+                <label for="name">Username:</label>
+                <input type="text" required id="nameId" name="user_name">
+
+
+                <label for="password">Password:</label>
+                <input type="password" required id="passwordId" name="user_password">
+
+
+                <label for="mail">Email:</label>
+                <input type="email" required id="mailId" name="user_email">
+
+
+                <label for="number">Mobile Number:</label>
+                <input type="text" required id="mobnoId" name="user_mobno">
+
+                <label for="address">Address:</label>
+                <input type="text" required id="addressId" name="user_address">
+
+            </fieldset>
+
+
+            <div class="button" onclick="getValueRegistration()">Sign Up</div>
+            <a id="AfterLoginId" href="../../" style="color: #fd3030;text-decoration: none;font-size: 20px;font-weight: 600;margin-top:20px;">Login</a>
+        </form>
+      
+        <script type="text/javascript" src="../../Scripts/JavaScripts/JS_Registration.js"></script>
+    </body>

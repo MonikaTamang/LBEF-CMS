@@ -1,0 +1,42 @@
+﻿
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="pages/Registration/css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="Scripts/JavaScripts/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+    <form action="index.html" method="post">
+
+
+        <fieldset>
+           
+            <h1>Login</h1>
+
+            <label for="mail">Email:</label>
+            <input type="email" required id="mailId" name="user_email">
+
+
+            <label for="password">Password:</label>
+            <input type="password" required id="passwordId" name="user_password">
+
+
+
+        </fieldset>
+
+
+        <div class="button" onclick="getValueRegistration()">Login</div>
+        
+        <h2> Dont have an account yet ?</h2><a id="AfterLoginId" href="pages/Registration/" style="color: #fd3030;text-decoration: none;font-size: 25px;font-weight: 600;">Register</a>
+       
+
+    </form>
+
+
+    <script type="text/javascript" src="Scripts/JavaScripts/JS_Login.js"></script>
+</body>
